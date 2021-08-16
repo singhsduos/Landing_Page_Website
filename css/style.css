@@ -80,6 +80,7 @@ background: radial-gradient(#fce4b3, #ffd071);
 
 .shoe-white{
   background: radial-gradient(rgb(85, 144, 253), rgb(85, 253, 239));
+  text-align: right;
 }
 
 .shoe-black{
@@ -98,7 +99,7 @@ background: radial-gradient(#fce4b3, #ffd071);
     float: left;
     shape-outside: url(../img/shoe-2.png);
     margin: 8rem -4.5rem 0rem -5rem;
-    /* shape-margin: 2em; */
+    shape-margin: 2rem;
   }
 
 
@@ -140,7 +141,7 @@ span{
 .product-title{
 color: white;
 font-size: 4rem;
-line-height: 1.1;
+line-height: 1;
 text-transform: uppercase;
 }
 
