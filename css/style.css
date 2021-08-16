@@ -29,16 +29,77 @@ img{
   
 }
 
+.featured-product{
+  background-color: rgb(243, 240, 233);
+  padding-bottom:4.5rem ;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.featured-img-cont{
+ background-color: cyan;
+    margin: 2em 3em;
+    border-radius: 50%;
+    width: 70%;
+    transform: scale(0.9);
+    position: relative;
+    transition: 350ms ease-in-out;
+    color: #444;
+    text-align: center;
+    /* padding: 1.5rem 1.5rem; */
+  
+}
+
+.featured-img-cont:hover,
+.featured-img-cont:focus{
+  transform: scale(1.2);
+  cursor: pointer;
+  margin-bottom: 4.3rem;
+}
+
+
+
+
+/*CSS for text */
 .head-text{
   text-transform: uppercase;
   font-size: 3rem;
   line-height: 1;
 }
 
+
 .section-heading{
-  text-align: center;
-  
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 27px;
+
 }
+
+.featured-price{
+  display: block;
+  text-align: center;
+  margin-top: -1.5rem;
+  opacity: 0;
+  transition: opacity 350ms ease-in-out;
+}
+
+.featured-price:hover, 
+ .featured-price:focus {
+  opacity: 1;
+}
+
+span{
+  display: block;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* CSS for Buttons */
 
 .btn{
   background-color: cyan;
