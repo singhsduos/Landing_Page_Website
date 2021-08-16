@@ -1,5 +1,63 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'Noto Sans JP', sans-serif;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: ''Noto Sans JP', sans-serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.container{
+  width: 85%;
+  margin:0 5%;
+}
+
+.hero{
+  padding: 15em 0;
+  text-align: center;
+  color: white;
+  background: center center no-repeat;
+  background-image: url("../img/shoe-3.png") ,
+  radial-gradient(#444,#111);
+  background-blend-mode: soft-light;
+  background-attachment:fixed;
+  
+}
+
+.head-text{
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.section-heading{
+  text-align: center;
+  
+}
+
+.btn{
+  background-color: cyan;
+    width: 100px;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    transition: ease-in-out 250ms;
+    outline: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+outline: none;
+cursor: pointer;
+width: 110px;
+font-size: 1.1rem;
+transform: translate(-0.25em);
 }
