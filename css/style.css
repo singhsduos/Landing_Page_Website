@@ -1,4 +1,4 @@
-
+/* BASIC CODE FOR WHOLE WEBSITE */
 body{
   margin: 0;
   padding: 0;
@@ -16,6 +16,7 @@ img{
   margin:0 5%;
 }
 
+/* Code For Header */
 .hero{
   padding: 15em 0;
   text-align: center;
@@ -28,6 +29,7 @@ img{
   
 }
 
+/* Code for Section-1 Featured Product */
 .featured-product{
   background-color: rgb(243, 240, 233);
   padding-bottom:4.5rem ;
@@ -59,6 +61,7 @@ img{
   margin-bottom: 4.3rem;
 }
 
+/* Code for Section-2 Our Products */
 .product{
   text-align: left;
   border-radius: 1rem;
@@ -91,22 +94,24 @@ background: radial-gradient(#fce4b3, #ffd071);
   float: right;
   max-width:55%;
   shape-outside: url("../img/shoe-1.png");
-   transition: 350ms ease-in-out;
+  transition: 350ms ease-in-out;
 }
 
  .product.shoe-left .product-image {
    margin: 8rem -4.5rem 0rem -5rem;  
    float: left;
    shape-outside: url(../img/shoe-2.png);
-    shape-margin: 2rem;
+   shape-margin: 2rem;
   }
 
 .product-image:hover,
 .product-image:focus{
-   transform: scale(1.2);
+  transform: scale(1.2);
   cursor: pointer;
-  margin:2rem;
+  margin:1rem;
 }
+
+
 /*CSS for text */
 .head-text{
   text-transform: uppercase;
@@ -198,6 +203,10 @@ transform: translate(-0.25em);
   flex-wrap: wrap;
 }
 
+/* CSS for text */
+.featured-price{
+  opacity: 1;
+}
 
 }
 
@@ -225,6 +234,10 @@ transform: translate(-0.25em);
   }
 
 /* CSS for text */
+.featured-price{
+  opacity: 1;
+}
+
 .product{
   text-align:center;
 }
@@ -269,5 +282,9 @@ text-transform: uppercase;
     shape-margin: 2rem;
   }
 
+  /* CSS for text */
+.featured-price{
+  opacity: 1;
+}
 
 }
