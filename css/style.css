@@ -94,6 +94,7 @@ background: radial-gradient(#fce4b3, #ffd071);
   float: right;
   max-width:55%;
   shape-outside: url("../img/shoe-1.png");
+  shape-margin: 2rem;
   transition: 350ms ease-in-out;
 }
 
