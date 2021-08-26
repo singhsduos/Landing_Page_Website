@@ -1,9 +1,10 @@
 # Shoe Landing Page 
 This is a static website, just made for fun to practicse HTML & CSS
-In this project I learned following thing:
-1.CSS flexbox
-2.Little bit animation
-3.Importance of responsivness
+
+## Things I learend
+1. CSS flexbox
+2. Little bit animation
+3. Importance of responsivness
 
 ### <a href="https://singhsduos.github.io/Landing_Page_Website/" target="_blank">**Visit Now 🚀**</a>
 
