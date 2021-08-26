@@ -4,7 +4,7 @@ This is a static website, just made for fun to practicse HTML & CSS
 ## Things I learend
 1. CSS flexbox
 2. Little bit animation
-3. Importance of responsivness
+3. Importance of responsiveness
 
 ### <a href="https://singhsduos.github.io/Landing_Page_Website/" target="_blank">**Visit Now 🚀**</a>
 
